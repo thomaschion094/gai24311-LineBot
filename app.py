@@ -28,7 +28,7 @@ def linebot():
             print(msg)                                       # 印出內容
             reply = msg
         else:
-            reply = '你傳的不是文字呦～'
+            reply = '你傳的不是文字呦～ '
         print(reply)
         line_bot_api.reply_message(tk,TextSendMessage(reply))# 回傳訊息
     except:
